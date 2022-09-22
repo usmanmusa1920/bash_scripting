@@ -1,0 +1,18 @@
+
+Request Method:	POST
+Request URL:	http://127.0.0.1:8000/update/secure/
+Django Version:	4.1
+Exception Type:	AttributeError
+Exception Value:	
+'NoneType' object has no attribute 'encode'
+Exception Location:	/home/usman/Desktop/acode/sakyum/sakyum_pkg/auth_hash/pass_auth.py, line 67, in get_hash
+Raised during:	secureapp.views.updateSecurePasscode
+Python Executable:	/home/usman/Desktop/acode/sakyum/venv/bin/python3
+Python Version:	3.8.10
+Python Path:	
+['/home/usman/Desktop/acode/sakyum',
+ '/usr/lib/python38.zip',
+ '/usr/lib/python3.8',
+ '/usr/lib/python3.8/lib-dynload',
+ '/home/usman/Desktop/acode/sakyum/venv/lib/python3.8/site-packages']
+Server time:	Wed, 31 Aug 2022 06:45:22 +0000
